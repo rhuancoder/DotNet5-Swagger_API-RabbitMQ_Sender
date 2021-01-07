@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <RootNamespace>DotNet5_Swagger_API_RabbitMQ_Sender.WebAPI</RootNamespace>
+    <RootNamespace>DotNet5_Swagger_API_RabbitMQ_Sender</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\RocketSender.Entities\RocketSender.Entities.csproj" />
   </ItemGroup>
 
 </Project>

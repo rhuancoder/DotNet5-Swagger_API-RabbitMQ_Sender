@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet5-Swagger_API-RabbitMQ_Sender.WebAPI", "DotNet5-Swagger_API-RabbitMQ_Sender.WebAPI\DotNet5-Swagger_API-RabbitMQ_Sender.WebAPI.csproj", "{C458417B-17B6-4C79-8DBA-B0B9CD424F79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RocketSender.WebAPI", "RocketSender.WebAPI\RocketSender.WebAPI.csproj", "{C04D1666-5050-46ED-8C8A-2C1D16567EB1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F73AF509-4160-4B8F-BE60-C889A4B8247D}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{A413C808-6CB8-4804-9B06-7101331CDB0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{296C3CB0-8253-45D7-A68A-EC8305D090DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RocketSender.Entities", "RocketSender.Entities\RocketSender.Entities.csproj", "{026D7397-734A-4FB1-AD36-4345C92241DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,18 +17,23 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C458417B-17B6-4C79-8DBA-B0B9CD424F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C458417B-17B6-4C79-8DBA-B0B9CD424F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C458417B-17B6-4C79-8DBA-B0B9CD424F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C458417B-17B6-4C79-8DBA-B0B9CD424F79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C04D1666-5050-46ED-8C8A-2C1D16567EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C04D1666-5050-46ED-8C8A-2C1D16567EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C04D1666-5050-46ED-8C8A-2C1D16567EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C04D1666-5050-46ED-8C8A-2C1D16567EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{026D7397-734A-4FB1-AD36-4345C92241DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026D7397-734A-4FB1-AD36-4345C92241DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026D7397-734A-4FB1-AD36-4345C92241DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026D7397-734A-4FB1-AD36-4345C92241DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C458417B-17B6-4C79-8DBA-B0B9CD424F79} = {F73AF509-4160-4B8F-BE60-C889A4B8247D}
+		{C04D1666-5050-46ED-8C8A-2C1D16567EB1} = {A413C808-6CB8-4804-9B06-7101331CDB0F}
+		{026D7397-734A-4FB1-AD36-4345C92241DA} = {296C3CB0-8253-45D7-A68A-EC8305D090DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8EB1455B-6786-4AFB-AAE7-29C79CDB9A1A}
+		SolutionGuid = {AB0A205F-9948-46EA-97CF-29530F2F289A}
 	EndGlobalSection
 EndGlobal

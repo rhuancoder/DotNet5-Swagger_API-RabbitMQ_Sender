@@ -30,7 +30,7 @@ namespace DotNet5_Swagger_API_RabbitMQ_Sender.WebAPI
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DotNet5_Swagger_API_RabbitMQ_Sender.WebAPI", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DotNet5_Swagger_API_RabbitMQ_Sender", Version = "v1" });
             });
         }
 
@@ -41,7 +41,7 @@ namespace DotNet5_Swagger_API_RabbitMQ_Sender.WebAPI
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DotNet5_Swagger_API_RabbitMQ_Sender.WebAPI v1"));
+                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "DotNet5_Swagger_API_RabbitMQ_Sender v1"));
             }
 
             app.UseHttpsRedirection();
